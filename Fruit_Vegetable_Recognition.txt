@@ -1,0 +1,30 @@
+Fruit_Vegetable_Recognition
+Cloud_final_project
+Host name : ec2-52-3-241-123.compute-1.amazonaws.com
+User name : ubuntu
+Public IPv4 address : 52.3.241.123
+---------------------------
+sudo su
+apt-get update
+python3
+exit()
+ls
+cd Fruit_Vegetable_Recognition
+sudo apt-get install python3-pip
+python3 -m pip install -r requirements.txt
+pip3 install tensorflow
+pip uninstall black
+pip uninstall click
+pip install black
+pip install click
+python3 EC2_API.py
+--------------------------
+url:
+streamlit run App.py
+--------------------------
+nohup python3 EC2_API.py
+--------------------------
+sudo su
+ps -ef
+kill ...
+------------------

@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+streamlit
+numpy
+Pillow
+flask
+matplotlib
+keras
